@@ -49,5 +49,7 @@ This repository contains a robust and professional pipeline for training a Convo
 2.  **Model Definition (CNN3):** A custom CNN was initialized featuring convolutional blocks, batch normalization, and adaptive pooling.
 3.  **LR Range Test:** The model was tested with exponentially increasing learning rates (from $10^{-7}$ upwards). The loss landscape was plotted to identify the steepest gradient, revealing the optimal LR.
 4.  **Final Training Configuration:** The scheduler was configured with `base_lr` set to $1/10$ of the optimal LR and `max_lr` set to the optimal LR itself, perfectly priming the model for a highly stable and rapid training phase.
+5.  **data link** :https://data.mendeley.com/datasets/dwtn3c6w6p/1
+
 
 </div>
